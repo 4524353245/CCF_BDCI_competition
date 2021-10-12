@@ -7,6 +7,6 @@ python3.7 main.py --test -c configs/recognition/stgcn/stgcn_fsd.yaml -w output/S
 
 使用agcn:
 
-python3.7 main.py -c configs/recognition/stgcn/stgcn_fsd.yaml
+python3.7 main.py -c configs/recognition/agcn/agcn_fsd.yaml
 
 python3.7 main.py --test -c configs/recognition/agcn/agcn_fsd.yaml -w output/AGCN/AGCN_epoch_00100.pdparams
